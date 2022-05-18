@@ -27,7 +27,7 @@ export default function Place() {
             .catch((error) => {
                 console.log(error);
             });
-    }, [id]);
+    }, []);
 
     return (
         <>
